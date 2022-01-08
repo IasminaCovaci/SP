@@ -16,6 +16,6 @@ public abstract class Element
     {
         return null;
     }
-    protected ArrayList<Element> elements = new ArrayList<Element>();
+
 }
 

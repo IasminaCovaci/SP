@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Section extends Element
 {
     public Section()
@@ -33,6 +35,7 @@ public class Section extends Element
         }
     }
 
+    protected ArrayList<Element> elements = new ArrayList<Element>();
     private String title = "";
 }
 
