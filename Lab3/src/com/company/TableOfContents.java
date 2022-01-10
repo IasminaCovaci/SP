@@ -1,6 +1,6 @@
 package com.company;
 
-public class TableOfContents extends Element
+public class TableOfContents implements Element
 {
     public TableOfContents(String something)
     {
@@ -10,6 +10,21 @@ public class TableOfContents extends Element
     {
         System.out.print("TableOfContents: ");
         System.out.println(something);
+    }
+
+    @Override
+    public void add(Element element) {
+
+    }
+
+    @Override
+    public void remove(Element element) {
+
+    }
+
+    @Override
+    public Element get(int index) {
+        return null;
     }
 
     private String something = "";

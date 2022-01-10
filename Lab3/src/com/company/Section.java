@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class Section extends Element
+public class Section implements Element
 {
     public Section()
     {
